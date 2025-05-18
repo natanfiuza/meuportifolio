@@ -29,7 +29,7 @@ class ContactFormMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address($this->formData['email'], $this->formData['name']), // O e-mail e nome de quem preencheu o formulário
+            from: new Address(env('MEU_EMAIL'), env('APP_NAME')), // O e-mail e nome de quem preencheu o formulário
             replyTo: [                                                            // Para que você possa responder diretamente para quem enviou
                 new Address($this->formData['email'], $this->formData['name']),
             ],
