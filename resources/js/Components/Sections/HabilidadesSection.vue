@@ -1,5 +1,5 @@
 <script setup>
-console.log('habilidades section loaded');
+
 const skills = {
     backend: {
         title: 'Backend',

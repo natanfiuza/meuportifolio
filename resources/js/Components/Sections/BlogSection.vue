@@ -1,6 +1,5 @@
 <script setup>
 import { Link } from '@inertiajs/vue3';
-console.log('blog section loaded');
 
 const props = defineProps({
     posts: {
@@ -9,7 +8,7 @@ const props = defineProps({
         default: () => [] // Adicionado default para evitar erro se não passado
     }
 });
-console.log('blog finish');
+
 
 </script>
 
