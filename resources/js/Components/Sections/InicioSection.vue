@@ -1,5 +1,5 @@
 <script setup>
-console.log('inicio section loaded');
+
 
 const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -7,7 +7,7 @@ const scrollToSection = (sectionId) => {
         section.scrollIntoView({ behavior: 'smooth' });
     }
 };
-console.log('inicio section loaded finish');
+
 
 </script>
 

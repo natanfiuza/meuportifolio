@@ -1,5 +1,4 @@
 <script setup>
-console.log('sobre section loaded');
 
 const props = defineProps({
     userProfile: {
@@ -12,7 +11,6 @@ const props = defineProps({
         })
     }
 });
-console.log('sobre section loaded finish');
 
 </script>
 

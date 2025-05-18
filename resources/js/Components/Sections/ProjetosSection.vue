@@ -1,6 +1,5 @@
 <script setup>
 import { Link } from '@inertiajs/vue3';
-console.log('projects section loaded');
 
 const props = defineProps({
     projects: {
@@ -9,7 +8,6 @@ const props = defineProps({
         default: () => [] // Adicionado default para evitar erro se não passado
     }
 });
-console.log('projects section loaded finish');
 
 </script>
 
