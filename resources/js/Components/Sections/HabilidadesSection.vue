@@ -3,15 +3,15 @@
 const skills = {
     backend: {
         title: 'Backend',
-        items: ['PHP (Laravel, Symfony)', 'Python (Django, Flask)', 'Node.js (Express)', 'API RESTful & GraphQL']
+        items: ['PHP (Laravel)', 'Python (Django, Flask)', 'Node.js (Express)', 'API RESTful']
     },
     frontend: {
         title: 'Frontend',
-        items: ['JavaScript (ES6+)', 'Vue.js (Vuex, Vue Router)', 'Bootstrap', 'HTML5, CSS3 (Sass/SCSS)', 'Tailwind CSS, Bootstrap']
+        items: ['JavaScript (ES6+)', 'Vue.js (Vuex, Vue Router)', 'HTML5, CSS3 (Sass/SCSS)', 'Tailwind CSS, Bootstrap']
     },
     databaseDevOps: {
         title: 'Database & DevOps',
-        items: ['MySQL, PostgreSQL, MongoDB', 'Docker, Git, CI/CD (GitHub Actions)', 'Linux, Nginx, Apache', 'AWS (EC2, S3)']
+        items: ['MySQL, PostgreSQL', 'Docker, Git, CI/CD (GitHub Actions)', 'Linux,  Apache', 'AWS (EC2, S3)']
     }
 };
 </script>
