@@ -5,7 +5,9 @@
 Você recebeu uma nova mensagem através do formulário de contato.
 
 **Nome:** {{ $formData['name'] }}
+
 **E-mail:** [{{ $formData['email'] }}](mailto:{{ $formData['email'] }})
+
 **Assunto:** {{ $formData['subject'] }}
 
 ---
@@ -17,6 +19,5 @@ Você recebeu uma nova mensagem através do formulário de contato.
 
 ---
 
-Obrigado,
 {{ config('app.name') }}
 @endcomponent

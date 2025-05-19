@@ -4,7 +4,7 @@
         <HabilidadesSection id="habilidades" />
         <ProjetosSection id="projetos" :projects="props.projects" />
         <SobreSection id="sobre" :userProfile="props.userProfile" />
-        <BlogSection id="blog" :posts="props.blogPosts" />
+        <!-- <BlogSection id="blog" :posts="props.blogPosts" /> -->
         <ContatoSection id="contato" />
     </AppLayout>
 </template>
