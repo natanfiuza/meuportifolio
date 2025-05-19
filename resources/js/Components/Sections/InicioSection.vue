@@ -14,10 +14,10 @@ const scrollToSection = (sectionId) => {
 <template>
     <section class="min-h-screen flex items-center justify-center bg-gray-900 text-white py-20 px-6 text-center">
         <div class="container mx-auto">
-            <h1 class="text-5xl md:text-6xl font-bold mb-4">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4 ">
                 Olá, eu sou Nataniel Fiuza
             </h1>
-            <p class="text-3xl md:text-4xl font-light text-indigo-400 mb-6">
+            <p class="text-3xl md:text-4xl text-indigo-600 mb-6 ">
                 Desenvolvedor Fullstack
             </p>
             <p class="text-lg md:text-xl max-w-2xl mx-auto mb-10">
