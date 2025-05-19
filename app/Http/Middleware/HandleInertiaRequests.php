@@ -41,7 +41,9 @@ class HandleInertiaRequests extends Middleware
             // Adicione esta seção para mensagens flash
             'flash' => [
                 'success' => fn() => $request->session()->get('success'),
-                'error'   => fn()   => $request->session()->get('error'),
+                'error'   => fn()   => $request->session()->get('error'),   // Novas mensagens flash para a newsletter
+                'newsletter_success' => fn () => $request->session()->get('newsletter_success'),
+                'newsletter_error' => fn () => $request->session()->get('newsletter_error'),
             ],
             // ... (ziggy para rotas, se você usa)
         ]);
