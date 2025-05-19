@@ -28,7 +28,7 @@ const props = defineProps({
                     <p class="text-lg text-gray-300 leading-relaxed mb-8 whitespace-pre-line">
                         {{ userProfile.bio }}
                     </p>
-                    <a :href="userProfile.cvUrl" target="_blank" download="NatanielFiuza_CV.pdf"
+                    <a :href="userProfile.cvUrl" target="_blank" download="Nataniel_Fiuza_CV.pdff"
                         class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg text-lg transition-colors shadow-md hover:shadow-lg">
                         Baixar Meu Currículo
                     </a>

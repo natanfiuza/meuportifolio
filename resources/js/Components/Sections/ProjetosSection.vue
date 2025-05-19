@@ -21,9 +21,13 @@ const props = defineProps({
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div v-for="project in projects" :key="project.id"
                     class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300 flex flex-col">
-                    <img :src="project.image" :alt="project.title" class="w-full h-56 object-cover">
+                    <a :href="project.url" target="_blank">
+                        <img :src="project.image" :alt="project.title" class="w-full h-56 object-cover">
+                    </a>
                     <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-2xl font-semibold mb-2 text-indigo-400">{{ project.title }}</h3>
+                        <a :href="project.url" target="_blank">
+                            <h3 class="text-2xl font-semibold mb-2 text-indigo-400">{{ project.title }}</h3>
+                        </a>
                         <p class="text-gray-400 text-sm mb-4 flex-grow">{{ project.description }}</p>
                         <div class="mb-4">
                             <span v-for="tag in project.tags" :key="tag"
