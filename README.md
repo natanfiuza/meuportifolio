@@ -1,6 +1,6 @@
 # Meu Portfólio Pessoal
 
-![Banner do Projeto](https://raw.githubusercontent.com/natanfiuza/meuportifolio/main/assets/img/og-image.png)
+![Banner do Projeto](https://raw.githubusercontent.com/natanfiuza/meuportifolio/main/public/assets/img/og-image.png)
 
 ## 📖 Sobre o Projeto
 
