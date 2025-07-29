@@ -29,6 +29,8 @@ Este projeto foi construído utilizando as seguintes tecnologias e ferramentas:
 * **HTML5:** Para a estruturação e semântica do conteúdo.
 * **CSS3:** Para a estilização, layout e responsividade.
 * **JavaScript:** Para a interatividade e manipulação dinâmica de elementos da página.
+* **Laravel** O artesão da web.
+* **Vue** O projeto é um SPA utilizando o Inertia.js para desenvolver tudo no Laravel.
 * **Git & GitHub:** Para o versionamento do código e a hospedagem do site através do GitHub Pages.
 
 ---
@@ -39,7 +41,7 @@ Se você quiser visualizar o projeto ou fazer alguma modificação em sua própr
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/natanfiuza/meuportifolio.git](https://github.com/natanfiuza/meuportifolio.git)
+    git clone https://github.com/natanfiuza/meuportifolio.git
     ```
 
 2.  **Navegue até o diretório do projeto:**
@@ -47,10 +49,29 @@ Se você quiser visualizar o projeto ou fazer alguma modificação em sua própr
     cd meuportifolio
     ```
 
-3.  **Abra o arquivo `index.html` no seu navegador:**
-    Você pode simplesmente arrastar o arquivo `index.html` para a janela do seu navegador preferido (Chrome, Firefox, etc.) ou usar uma extensão como o "Live Server" no VSCode para uma melhor experiência de desenvolvimento.
+3.  **Execute o Laravel**
+    
+    Como o projeto e uma SPA feito com o Laravel+Inertia+Vue você precisa instalar o `composer` é o `node`, depois execute os comandos:
 
-E pronto! O site estará rodando localmente.
+    ```bash
+    composer install
+    ```
+    ```bash
+    npm install
+    ```
+    Após instalar execute os comandos abaixo um em cada terminal:
+
+    ```bash
+    npm run dev
+    ```
+
+    E também:
+
+    ```bash
+    php artisan serve
+    ```
+  
+
 
 ---
 
@@ -62,10 +83,10 @@ Este é um projeto pessoal, mas feedbacks e sugestões de melhoria são sempre b
 
 ## 👨‍💻 Autor
 
-| [<img src="https://avatars.githubusercontent.com/u/60322961?v=4" width=115><br><sub>Natan Fiuza</sub>](https://github.com/natanfiuza) |
+| [<img src="https://avatars.githubusercontent.com/u/533266?s=400&u=fa1758c90c138316d565afdc4a5eac53c3310422&v=4" width=115><br><sub>Natan Fiuza</sub>](https://github.com/natanfiuza) |
 | :-----------------------------------------------------------------------------------------------------------------------------------: |
 
-Feito com ❤️ por **Natan Fiuza**. Entre em contato!
+Feito por **Natan Fiuza**. Entre em contato!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/natanfiuza/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/natanfiuza)
