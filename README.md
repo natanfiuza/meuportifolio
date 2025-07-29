@@ -8,7 +8,7 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este é um espaço que crie
 
 O site foi desenvolvido com foco em um design limpo, responsivo e em uma navegação intuitiva para proporcionar a melhor experiência ao usuário.
 
-**➡️ [Acesse a versão ao vivo do projeto aqui!](https://natanfiuza.github.io/meuportifolio/)**
+**➡️ [Acesse a versão ao vivo do projeto aqui!](https://www.natanfiuza.dev.br/)**
 
 ---
 
