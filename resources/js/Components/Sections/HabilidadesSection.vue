@@ -7,15 +7,15 @@ const skills = {
     },
     frontend: {
         title: 'Frontend',
-        items: ['JavaScript (ES6+)', 'Vue.js (Vuex, Vue Router)', 'HTML5, CSS3 (Sass/SCSS)', 'Tailwind CSS, Bootstrap']
+        items: ['JavaScript (ES6+)', 'Vue.js, jQuery', 'HTML5, CSS3 (Sass/SCSS)', 'Tailwind CSS, Bootstrap']
     },
     databaseDevOps: {
         title: 'Database & DevOps',
-        items: ['MySQL, PostgreSQL', 'Docker, Git, CI/CD (GitHub Actions)', 'Linux,  Apache', 'AWS (EC2, S3)']
+        items: ['MySQL, PostgreSQL, MS Sql', 'Docker, Git, CI/CD (GitHub Actions)', 'Linux,  Apache', 'AWS (EC2, S3)']
     }
 };
 </script>
- 
+
 <template>
     <section class="py-20 px-6 bg-gray-800 text-white">
         <div class="container mx-auto text-center">
