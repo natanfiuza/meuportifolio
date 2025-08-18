@@ -11,6 +11,7 @@ class HomeController extends Controller
     {
         $projectsData = [
             ['id' => 1, 'title' => 'TechPulse Blog', 'description' => 'Blog pessoal desenvolvido utilizando a stack Laravel + Inertia.js + Vue.js', 'image' => '/assets/img/projects/techpulse.png', 'tags' => ['Laravel', 'Inertia.js', 'Vue.js', 'MySQL'],"url" => 'https://tech-pulse.natanfiuza.dev.br'],
+            ['id' => 2, 'title' => 'StartupConnect', 'description' => 'StartupConnect é uma plataforma de networking social projetada para o ecossistema de startups .', 'image' => '/assets/img/projects/logo_menor.png', 'tags' => ['Laravel', 'Inertia.js', 'Vue.js', 'MySQL'],"url" => 'https://startupconnect.natanfiuza.dev.br'],
             //['id' => 2, 'title' => 'API de Pagamentos', 'description' => 'API RESTful robusta para processamento de pagamentos online.', 'image' => '/images/projects/api.jpg', 'tags' => ['PHP', 'Laravel', 'Stripe SDK'],'url' => '#'],
            // ['id' => 3, 'title' => 'Dashboard Analítico', 'description' => 'Painel interativo para visualização de dados complexos.', 'image' => '/images/projects/dashboard.jpg', 'tags' => ['Python', 'Flask', 'JavaScript', 'Chart.js'],'url' => '#'],
         ];
