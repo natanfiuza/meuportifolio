@@ -27,7 +27,7 @@ class HomeController extends Controller
             'name' => 'Nataniel Fiuza',
             'imageUrl' => '/assets/img/profile/natanfiuza.jpeg',
             'bio' => "Olá! Sou Nataniel Fiúza, um profissional de tecnologia com mais de 20 anos de experiência transformando ideias em realidade digital. Minha carreira foi construída sobre uma base sólida em desenvolvimento web, com especialização em PHP e na criação de sistemas robustos e escaláveis, incluindo a fundação de iniciativas como a Miti (onde desenvolvemos o ClippingExpress) e a Laxus Tecnologia.\n\n Minha curiosidade e busca por evolução me levaram a uma graduação em Arquivologia, que expandiu minha compreensão sobre a gestão da informação, e mais recentemente, a um MBA em Engenharia e Ciência de Dados (concluído em abril de 2025). Esta nova especialização alinha-se perfeitamente com minha paixão por dados e minha vivência em desenvolvimento, permitindo-me explorar novas fronteiras na análise, engenharia de dados e desenvolvimento orientado a dados.\n\n Estou entusiasmado para conectar minha experiência prática em desenvolvimento e gestão de projetos com as mais recentes técnicas em ciência de dados para resolver problemas complexos, otimizar processos e gerar valor. Se você procura um profissional que une profundidade técnica, visão estratégica e uma paixão por dados, vamos conversar!\n",
-            'cvUrl' => '/cv/Nataniel_Fiuza_CV.pdf'
+            'cvUrl' => '/cv/'
         ];
 
         $contactInfoData = [
@@ -37,7 +37,7 @@ class HomeController extends Controller
             'social' => [
                 [ 'name' => 'Github', 'url' => 'https://github.com/natanfiuza', 'iconClass' => 'fab fa-github' ],
                 [ 'name' => 'LinkedIn', 'url' => 'https://linkedin.com/in/natanfiuza', 'iconClass' => 'fab fa-linkedin' ],
-                [ 'name' => 'Twitter', 'url' => 'https://twitter.com/natanfiuza', 'iconClass' => 'fab fa-twitter' ], // ou fa-x-twitter
+                [ 'name' => 'X (Twitter)', 'url' => 'https://x.com/natanfiuza', 'iconClass' => 'fab fa-twitter' ], // ou fa-x-twitter
             ]
         ];
 
