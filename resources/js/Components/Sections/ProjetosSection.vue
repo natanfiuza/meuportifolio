@@ -22,7 +22,7 @@ const props = defineProps({
                 <div v-for="project in projects" :key="project.id"
                     class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300 flex flex-col">
                     <a :href="project.url" target="_blank">
-                        <img :src="project.image" :alt="project.title" class="w-full h-56 object-cover">
+                        <img :src="project.image" :alt="project.title" class="w-full h-56 object-contain p-4 bg-gray-800">
                     </a>
                     <div class="p-6 flex flex-col flex-grow">
                         <a :href="project.url" target="_blank">
