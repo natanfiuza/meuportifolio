@@ -25,9 +25,10 @@ const props = defineProps({
     projects: {
         type: Array,
         default: () => [
-            { id: 1, title: 'Projeto Alpha', description: 'Uma breve descrição do Projeto Alpha, focado em resolver X.', image: 'https://via.placeholder.com/400x250/334155/e2e8f0?text=Projeto+Alpha', tags: ['PHP', 'Laravel', 'Vue.js'] },
-            { id: 2, title: 'Sistema Beta', description: 'Descrição do Sistema Beta, uma ferramenta para Y.', image: 'https://via.placeholder.com/400x250/475569/e2e8f0?text=Sistema+Beta', tags: ['Python', 'Django', 'JavaScript'] },
-            { id: 3, title: 'App Gama', description: 'Detalhes sobre o App Gama, que facilita Z.', image: 'https://via.placeholder.com/400x250/52525b/e2e8f0?text=App+Gama', tags: ['JavaScript', 'Node.js', 'React'] },
+            { id: 1, title: 'Projeto Alpha', description: 'Uma breve descrição do Projeto Alpha, focado em resolver X.', image: 'https://via.placeholder.com/400x250/334155/e2e8f0?text=Projeto+Alpha', tags: ['PHP', 'Laravel', 'Vue.js'], url: '#' },
+            { id: 2, title: 'Sistema Beta', description: 'Descrição do Sistema Beta, uma ferramenta para Y.', image: 'https://via.placeholder.com/400x250/475569/e2e8f0?text=Sistema+Beta', tags: ['Python', 'Django', 'JavaScript'], url: '#' },
+            { id: 3, title: 'App Gama', description: 'Detalhes sobre o App Gama, que facilita Z.', image: 'https://via.placeholder.com/400x250/52525b/e2e8f0?text=App+Gama', tags: ['JavaScript', 'Node.js', 'React'], url: '#' },
+            { id: 4, title: 'DevTools', description: 'Ferramentas essenciais para o dia a dia do desenvolvedor — JSON Viewer, AI SQL Builder, JWT Decoder, Regex Tester e mais, direto no navegador e sem instalar nada.', image: '/assets/img/projects/logo_devtools.svg', tags: ['Laravel', 'Inertia.js', 'Vue.js', 'TypeScript', 'MySQL'], url: 'https://devtools.natanfiuza.dev.br' },
         ]
     },
     blogPosts: {
